@@ -15,7 +15,7 @@ const prodConfig = {
     new ModuleFedarationPlugin({
       name: "container",
       remotes: {
-        marketing: `marketing@${domain}/marketing/remoteEntyry.js`,
+        marketing: `marketing@${domain}/marketing/latest/remoteEntyry.js`,
       },
       shared: packageJson.dependencies,
     }),
